@@ -1,0 +1,20 @@
+Testing on file: 		alphaLite
+Date of test: 			23/10/2017 16:46
+Number of Libraries: 	3
+Number of Tests: 		10
+Number of Iterations: 	100000
+
+Time result
+JUtil 	  713   643   648   635   635   635   634   632   633   648 
+Brics 	 1636  1667  1620  1612  1615  1615  1615  1616  1613  1613 
+JRegex 	  940   910   872   875   873   876   873   873   891   875 
+
+Matching rate
+JUtil 	  1,0   1,0   1,0   1,0   1,0   1,0   1,0   1,0   1,0   1,0 
+Brics 	  1,0   1,0   1,0   1,0   1,0   1,0   1,0   1,0   1,0   1,0 
+JRegex 	  1,0   1,0   1,0   1,0   1,0   1,0   1,0   1,0   1,0   1,0 
+
+Time Means
+JUtil:		645
+Brics:		1622
+JRegex:		885

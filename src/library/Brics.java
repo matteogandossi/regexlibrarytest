@@ -1,7 +1,6 @@
 package library;
 
 import dk.brics.automaton.Automaton;
-import dk.brics.automaton.BasicOperations;
 import dk.brics.automaton.RegExp;
 
 public class Brics extends Library {
@@ -10,7 +9,7 @@ public class Brics extends Library {
 
 	@Override
 	public boolean match(String input) {		
-		return BasicOperations.run(automaton, input);
+		return automaton.run(input);
 	}
 
 	@Override

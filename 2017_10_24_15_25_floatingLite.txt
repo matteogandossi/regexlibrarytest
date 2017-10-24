@@ -1,0 +1,22 @@
+Testing on file: 		floatingLite
+Date of test: 			24/10/2017 15:25
+Number of Libraries: 	3
+Number of Tests: 		10
+Number of Test Cases: 	50
+Number of Iterations: 	100000
+Input Evalueted: 	5000000
+
+Time result
+JUtil 	  846   532   531   531   538   537   531   532   533   513 
+Brics 	  386   368   355   368   362   362   362   369   369   377 
+JRegex 	 1133   984   985   980   987   986   977   985   989   987 
+
+Matching rate
+JUtil 	  1,0   1,0   1,0   1,0   1,0   1,0   1,0   1,0   1,0   1,0 
+Brics 	  1,0   1,0   1,0   1,0   1,0   1,0   1,0   1,0   1,0   1,0 
+JRegex 	  1,0   1,0   1,0   1,0   1,0   1,0   1,0   1,0   1,0   1,0 
+
+Time Means
+JUtil:		562
+Brics:		367
+JRegex:		999

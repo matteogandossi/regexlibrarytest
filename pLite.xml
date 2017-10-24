@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<file for="p">
+<regex>a*b*</regex>
+<nofelements>10</nofelements>
+<elements>
+	<element id="1">
+		<item>a</item>
+		<value>true</value>
+	</element>
+	<element id="2">
+		<item>aaa</item>
+		<value>true</value>
+	</element>
+	<element id="3">
+		<item>b</item>
+		<value>true</value>
+	</element>
+	<element id="4">
+		<item>a</item>
+		<value>true</value>
+	</element>
+	<element id="5">
+		<item>bdjdnsdjvnskjvbdshvbdkvbdsv</item>
+		<value>false</value>
+	</element>
+	<element id="6">
+		<item>bdhjbsvhbsdvkdbvjkdbhjdsbfhbdfhjb vsdhvbsdkjvsdsdkvbskdvbdk</item>
+		<value>false</value>
+	</element>
+	<element id="7">
+		<item>aaaaaaaaaaaaaaaaaaa</item>
+		<value>true</value>
+	</element>
+	<element id="8">
+		<item>aaaaaaaaaaaaabbbbbbbbbbbbbbbbc</item>
+		<value>false</value>
+	</element>
+	<element id="9">
+		<item></item>
+		<value>true</value>
+	</element>
+	<element id="10">
+		<item>aaaaaaaaaaabbbbbbbbbbbbbbbbb</item>
+		<value>true</value>
+	</element>
+</elements>
+</file>

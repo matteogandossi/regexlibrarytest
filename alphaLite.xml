@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<file for="alpha">
+<regex>[a-zA-Z0-9]*</regex>
+<nofelements>30</nofelements>
+<elements>
+	<element id="1">
+		<item>svbhjasbvdchjdbchjdscvhsjdc</item>
+		<value>true</value>
+	</element>
+	<element id="2">
+		<item>1232323hbshdbh</item>
+		<value>true</value>
+	</element>
+	<element id="3">
+		<item>sghdvchye1223d6gdfdgf32312</item>
+		<value>true</value>
+	</element>
+	<element id="4">
+		<item>27et37t327dghgsedhj3fdsaghvd</item>
+		<value>true</value>
+	</element>
+	<element id="5">
+		<item>e23hvdgweyvdkhj3eug.2e2</item>
+		<value>false</value>
+	</element>
+	<element id="6">
+		<item>1233654684355674563478563487</item>
+		<value>true</value>
+	</element>
+	<element id="7">
+		<item>dghjsdfvchjfvjh</item>
+		<value>true</value>
+	</element>
+	<element id="8">
+		<item>aaabbbcccdddeeeee.-dvcdhcvds</item>
+		<value>false</value>
+	</element>
+	<element id="9">
+		<item>123456hfdbsjs</item>
+		<value>true</value>
+	</element>
+	<element id="10">
+		<item>vcdhgcvsdyfvbyeuwfdchsgcvhdjsfgvsdjhfgsdjfvgbsdhjfgdshjfgdshjfgdshjfgsdjhfg37r764gwr623gr474g4g448grt873f7834</item>
+		<value>true</value>
+	</element>
+	<element id="11">
+		<item>-</item>
+		<value>false</value>
+	</element>
+	<element id="12">
+		<item>hdgetxgfwvsdzrsfdsegdjcgsdgbasyucgbajsdeycgsdjhcjhdsfgvvdjshfvdcddsjh</item>
+		<value>true</value>
+	</element>
+	<element id="13">
+		<item>^??</item>
+		<value>false</value>
+	</element>
+	<element id="14">
+		<item>!"ndfcjsdnbfvujkf343r5</item>
+		<value>false</value>
+	</element>
+	<element id="15">
+		<item>adsehjcbdsghjrfdey</item>
+		<value>true</value>
+	</element>
+	<element id="16">
+		<item>12345chdtefgbvdhjcsdbcsudvbchgfjdhcbsdjhy37465725367trfhdsfbvdshnhfchjdevfjhdesfg4454532435436565465.</item>
+		<value>false</value>
+	</element>
+	<element id="17">
+		<item>dheudfhgfghfudugfhedfgeyufy4rfefff78478474784784784378rfgfyudbcfyuwebfuybjkfsudyfbwufbuyrfg4bgf8743g478g43bui7fg4748f34</item>
+		<value>true</value>
+	</element>
+	<element id="18">
+		<item>-.-.-.-.+dhudshbfuisdf</item>
+		<value>false</value>
+	</element>
+	<element id="19">
+		<item>sdygfbdyugfdsyufgdshjfygsdfus^?=U</item>
+		<value>false</value>
+	</element>
+	<element id="20">
+		<item>lkjhgdsaqweertyuhgfcbjdhncbchdjsnfdhj hdfbdhf</item>
+		<value>false</value>
+	</element>
+	<element id="21">
+		<item>fujdhuvhfv_cbdsjbvfsdkvhc</item>
+		<value>false</value>
+	</element>
+	<element id="22">
+		<item>cgdeufgiufhi</item>
+		<value>true</value>
+	</element>
+	<element id="23">
+		<item>mamma</item>
+		<value>true</value>
+	</element>
+	<element id="24">
+		<item>mamma23456</item>
+		<value>true</value>
+	</element>
+	<element id="25">
+		<item>__jdhfudhfiuosfh___</item>
+		<value>false</value>
+	</element>
+	<element id="26">
+		<item>dhjfbjsbfdsufibsuiewbf36452837569827658734653487??</item>
+		<value>false</value>
+	</element>
+	<element id="27">
+		<item>hfgeufgeuiwgfieifuweifhweufweigfyuweigi7</item>
+		<value>true</value>
+	</element>
+	<element id="28">
+		<item>cdhgdgdgdh25374hf874jd7</item>
+		<value>true</value>
+	</element>
+	<element id="29">
+		<item>dfhrughfriehgor*</item>
+		<value>false</value>
+	</element>
+	<element id="30">
+		<item>sgfsyujbfiugfdhsjygfsdiufsfvw[</item>
+		<value>false</value>
+	</element>
+</elements>
+</file>

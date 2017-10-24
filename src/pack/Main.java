@@ -10,9 +10,8 @@ import library.Brics;
 import library.JRegex;
 import library.JUtil;
 import library.Library;
-
-import oracolo.Oracolo;
-import oracolo.Reader;
+import xmlite.TestSuite;
+import xmlite.Reader;
 
 public class Main {
 	
@@ -20,9 +19,9 @@ public class Main {
 	 * Dichiarazione numero prove
 	 */
 	private final static int LIBRARY = 3;
-	private final static int ITERATIONS = 10000;
+	private final static int ITERATIONS = 100000;
 	private final static int NUM_TEST = 10;
-	private static String filename = "alphaLite";
+	private static String filename = "floatingLite";
 	
 	/*
 	 * Inizializzazione oggetti globali
@@ -34,7 +33,7 @@ public class Main {
 	/*
 	 * Metodo di scrittura su file
 	 */
-	private static void saveonFile() {
+	private static void saveonFile(int testSuiteLength) {
 		
 		SimpleDateFormat sdf = new SimpleDateFormat("yyyy_MM_dd_HH_mm");
 		String outputFile = sdf.format(Calendar.getInstance().getTime()) + "_" + filename + ".txt";
@@ -51,7 +50,9 @@ public class Main {
 			ps.println("Date of test: \t\t\t" + today);
 			ps.println("Number of Libraries: \t" + LIBRARY);
 			ps.println("Number of Tests: \t\t" + NUM_TEST);
+			ps.println("Number of Test Cases: \t" + testSuiteLength);
 			ps.println("Number of Iterations: \t" + ITERATIONS);
+			ps.println("Input Evalueted: \t\t" + (ITERATIONS*testSuiteLength));
 			
 			ps.println();
 			
@@ -100,7 +101,7 @@ public class Main {
 		/*
 		 * Lettura da file
 		 */		
-		Oracolo oracolo = Reader.read(filename + ".xml");
+		TestSuite testSuite = Reader.read(filename + ".xml");
 		String regex = Reader.getRegex(filename + ".xml");
 		
 		/*
@@ -115,7 +116,7 @@ public class Main {
 		 */
 		for(int library=0; library<LIBRARY; library++) {
 			lib[library].setRegex(regex);
-			oracolo.evaluate(lib[library]);
+			testSuite.evaluate(lib[library]);
 		}
 		
 		for(int test=0; test<NUM_TEST; test++) {
@@ -129,7 +130,7 @@ public class Main {
 				begin = System.currentTimeMillis();
 				
 				for(i=0; i<ITERATIONS; i++)
-					score = oracolo.evaluate(lib[library]);
+					score = testSuite.evaluate(lib[library]);
 				
 				end = System.currentTimeMillis();
 				
@@ -145,7 +146,7 @@ public class Main {
 			
 		}
 		
-		saveonFile();
+		saveonFile(testSuite.size());
 		
 		System.out.println("Medie valutazioni");		
 		//stampa delle medie
