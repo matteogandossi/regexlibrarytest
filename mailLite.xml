@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<file for="mail">
+<regex>([A-Za-z0-9\_\-]+|([A-Za-z0-9\_\-]{1,}\.[A-Za-z0-9\_\-]{1,})+)\@[A-Za-z0-9\.\-]+\.([A-Za-z]{2,10})</regex>
+<nofelements>30</nofelements>
+<elements>
+	<element id="1">
+		<item>m.g@gmail.com</item>
+		<value>true</value>
+	</element>
+	<element id="2">
+		<item>email@example.com</item>
+		<value>true</value>
+	</element>
+	<element id="3">
+		<item>firstname.lastname@example.com</item>
+		<value>true</value>
+	</element>
+	<element id="4">
+		<item>email@subdomain.example.com</item>
+		<value>true</value>
+	</element>
+	<element id="5">
+		<item>1234567890@example.com</item>
+		<value>true</value>
+	</element>
+	<element id="6">
+		<item>email@example-one.com</item>
+		<value>true</value>
+	</element>
+	<element id="7">
+		<item>email@example.name</item>
+		<value>true</value>
+	</element>
+	<element id="8">
+		<item>email@example.museum</item>
+		<value>true</value>
+	</element>
+	<element id="9">
+		<item>firstname-lastname@example.com</item>
+		<value>true</value>
+	</element>
+	<element id="10">
+		<item>plainaddress</item>
+		<value>false</value>
+	</element>
+	<element id="11">
+		<item>@example.com</item>
+		<value>false</value>
+	</element>
+	<element id="12">
+		<item>email.example.com</item>
+		<value>false</value>
+	</element>
+	<element id="13">
+		<item>email@example@example.com</item>
+		<value>false</value>
+	</element>
+	<element id="14">
+		<item>.{email@example.com</item>
+		<value>false</value>
+	</element>
+	<element id="15">
+		<item>email@example</item>
+		<value>false</value>
+	</element>
+	<element id="16">
+		<item>email@111.222.333.44444</item>
+		<value>false</value>
+	</element>
+	<element id="17">
+		<item>luca.DIEDOLO@STUDENTI.UNIMI.IT</item>
+		<value>true</value>
+	</element>
+	<element id="18">
+		<item>william.bardom@@unimi.it</item>
+		<value>false</value>
+	</element>
+	<element id="19">
+		<item>prova.#de.it</item>
+		<value>false</value>
+	</element>
+	<element id="20">
+		<item>ciao@ciao.</item>
+		<value>false</value>
+	</element>
+	<element id="21">
+		<item>ciao@prova.i</item>
+		<value>false</value>
+	</element>
+	<element id="22">
+		<item>prova@prova.ite</item>
+		<value>true</value>
+	</element>
+	<element id="23">
+		<item>wer_sd@hdugu.it</item>
+		<value>true</value>
+	</element>
+	<element id="24">
+		<item>super-_s@gmail.ocm</item>
+		<value>true</value>
+	</element>
+	<element id="25">
+		<item>ciao-ddd@fd-sjhdbn.it</item>
+		<value>true</value>
+	</element>
+	<element id="26">
+		<item>t.t@gmail-org</item>
+		<value>false</value>
+	</element>
+	<element id="27">
+		<item>ciao@dkj.j.it</item>
+		<value>true</value>
+	</element>
+	<element id="28">
+		<item>exam@u.done.well</item>
+		<value>true</value>
+	</element>
+	<element id="29">
+		<item>perf@shgd.g</item>
+		<value>false</value>
+	</element>
+	<element id="30">
+		<item>__xsw@fddfd-d.it</item>
+		<value>true</value>
+	</element>
+	<element id="31">
+		<item>hgdhdjhdjhfdjhdjhvfdjhdjhvdjhbsdjhsdjhbsdjhvsdjhbsdsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdsd@sdjhvsdjhvdjhvsdjhvsdjhvjhvsdjhvsdjhvdjhvsdjhvsdjhvsdjhvdjhvdjhvsdjhvdjhvsdjhvdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsjhvdsjhvdsdjhvsd.it</item>
+		<value>true</value>
+	</element>
+	<element id="32">
+		<item>hgdhdjhd___eeee.jhdjhvdjhbsdjhsdjhbsdjhvsdjhbsdsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdsd@sdjhvsdjhvdjhvsdjhvsdjhvjhvsdjhvsdjhvdjhvsdjhvsdjhvsdjhvdjhvdjhvsdjhvdjhvsdjhvdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsjhvdsjhvdsdjhvsd.it</item>
+		<value>true</value>
+	</element>
+	<element id="33">
+		<item>hgdhdjhdjhfdjhdjhvfdjhdjhvdjhbsdjhsdjhbsdjhvsdjhbsdsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdsd@sdjhvsdjhvdjhvsdjhvsdjhvjhvsdjhvsdjhvdjhvsdjhvsdjhvsdjhvdjhvdjhvsdjhvdjhvsdjhvdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsjhvdsj@hvdsdjhvsd.it</item>
+		<value>false</value>
+	</element>
+	<element id="34">
+		<item>hgdhdjhdjhfdjhdjhvfdjhdjhvdjhbsdjhsdjhbsdjhvsdjhbsdsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdsd@sdjhvsdjhvdjhvsdjhvsdjhvjhvsdjhvsdjhvdjhvsdjhvsdjhvsdjhvdjhvdjhvsdjhvdjhvsdjhvdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsj.hvdsjhvdsdjhvsddhbfhdbfhbfhdbfit</item>
+		<value>false</value>
+	</element>
+	<element id="35">
+		<item>hgdhdjhdjhfdjhdjhvfdjhdjhvdjhbsdjhsdj_jhvsdjhvsdjhvsdjhvsdjhvsdsd@sdjhvsdjhvdjhvsdjhvsdjhvjhvsdjhvsdjhvdjhvsdjhvsdjhvsdjhvdjhvdjhvsdjhvdjhvsdjhvdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsj.hvdsjt</item>
+		<value>true</value>
+	</element>
+	<element id="36">
+		<item>hgdhdjhdjhfdjhdjhvfdjhdjhvdjhbsdjhsdjhbsdjhvshdbfsjhbfsjhdfbsjhd.vsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdsd@sdjhvsdjhvdjhvsdjhvsdjhvjhvsdjhvsdjhvdjhvsdjhvsdjhvsdjhvdjhvdjhvsdjhvdjhvsdjhvdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsj.hvdsjt</item>
+		<value>true</value>
+	</element>
+	<element id="37">
+		<item>hgdhdjhdjhfdjhdjhvfdjhdvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdsd@sdjhvsdjhvdjhvsdjhvsdjhvjhvsdjhvsdjhvdjhvsdjhvsdjhvsdjhvdjhvdjhvsdjhvdjhvsdjhvdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsj.hvdsjhvdsdjhvsddhbfhdbfhbfhdbfit</item>
+		<value>false</value>
+	</element>
+	<element id="38">
+		<item>hgdhdjhdjhfdjhdjhvfdjhdjhdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdsd@sdjhvsdjhvdjhvsdjhvsdjhvjhvsdjhvsdjhvdjhvsdjhvsdjhvsdjhvdjhvdjhvsdjhvdjhvsdjhvdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsj.hvdsjt</item>
+		<value>true</value>
+	</element>
+	<element id="39">
+		<item>hgdhdjhdjhfdjhdjhvfdjhdjhvdjhbsdjhvsdjhvsdjhvsdjhvsdjhvshbbjhfvsjdhfvsdjhfsvdjhfsvdjhfsvdjhfsbdjhfvsdjhfvsdjhfvsdjhfvsdjhfvsdjhfvjhfvsjhdfvshdvfshdvf___djhvsdjhvsdjhvsdsd@sdjhvsdjhvdjhvsdjhvsdjhvjhvsdjhvsdjhvdjhvsdjhvsdjhvsdjhvdjhvdjhvsdjhvdjhvsdjhvdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsj.hvdsjt</item>
+		<value>true</value>
+	</element>
+	<element id="40">
+		<item>hgdhdjhdjhfdjhdjhvfdjhdjhvdjhjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdsd@sdjhvsdjhvdjhvsdjhvsdjhvjhvsdjhvsdjhvdjhvsdjhvsdjhvsdjhvdjhvdjhvsdjhvdjhvsdjhvdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsj.hv@dsjt</item>
+		<value>false</value>
+	</element>
+	<element id="41">
+		<item>hgdhdjhdjhfdjhdjhvfdjhdjhvdjhbsdjhsdjhbsdjhvsdjhvsdjhvsdjhvsdjhvshbbjhfvsjdhfvsdjhfsvdjhfsvdjhfsvdjhfsbdjhfvsdjhfvsdjhfvsdjhfvsdjhfvsdjhfvjhfvsjhdfvshdvfshdvf___djhvsdjhvsdjhvsdsd@sdjhvsdjhvdjhvsdjhvsdjhvjhvsdjhvsdjhvdjhvsdjhvsdjhvsdjhvdjhvdjhvsdjhvdjhvsdjhvdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsj.hvdsjt</item>
+		<value>true</value>
+	</element>
+	<element id="42">
+		<item>exam@u.done.well.really</item>
+		<value>true</value>
+	</element>
+	<element id="43">
+		<item>perf@shg-d.go.out</item>
+		<value>true</value>
+	</element>
+	<element id="44">
+		<item>__xsw@fddfd-d.it</item>
+		<value>true</value>
+	</element>
+	<element id="45">
+		<item>hgdhdjhdjhfdjhdjhvfdjhdjhvdjhbsdjhs-sdsdjhvsdjhhvsdjhvsdsd@sdjhvsdjhvdjhvjhvdsdjhvsd.it</item>
+		<value>true</value>
+	</element>
+	<element id="46">
+		<item>hgdhdjhd___eeee.jhdjhvdjhbsdjhsdjhbsdjhvsdjhbsdsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdsd@sdjhvsdjhvdjhvsdjhvsdjhvjhvsdjhvsdjhvdjhvsdjhvsdjhvsdjhvdjhvdjhvsdjhvdjhvsdjhvdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsjhvdsjhvdsdjhvsd.it</item>
+		<value>true</value>
+	</element>
+	<element id="47">
+		<item>exam@u.done.well</item>
+		<value>true</value>
+	</element>
+	<element id="48">
+		<item>perf.@shgd.gd</item>
+		<value>false</value>
+	</element>
+	<element id="49">
+		<item>__xshdjjd.w@fddfd-d.it</item>
+		<value>true</value>
+	</element>
+	<element id="50">
+		<item>hgdhdjhdjhfdjhhvsdsd@sdjhvsdjhvdjhvsdjhvsdjhvjhvsdjhvsdjhvdjhvsdjhvsdjhvsdjhvdjhvdjhvsdjhvdjhvsdjhvdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsjhvdsjhvdsdjhvsd.itami</item>
+		<value>true</value>
+	</element>
+</elements>
+</file>

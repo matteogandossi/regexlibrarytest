@@ -37,6 +37,8 @@ public class TestSuite {
 			
 			if(l.match(input) == expected)
 				corrette++;
+			else
+				System.out.println(input);
 		}
 		
 		return (double)corrette/lista.size();

@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<file for="ipaddr">
+<regex>(([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])\.){3}([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])</regex>
+<nofelements>51</nofelements>
+<elements>
+	<element id="1">
+		<item>192.168.0.256</item>
+		<value>false</value>
+	</element>
+	<element id="2">
+		<item>0.0.0.0</item>
+		<value>true</value>
+	</element>
+	<element id="3">
+		<item>1.2.3.4</item>
+		<value>true</value>
+	</element>
+	<element id="4">
+		<item>255.255.255.255</item>
+		<value>true</value>
+	</element>
+	<element id="5">
+		<item>*255.255.6.5</item>
+		<value>false</value>
+	</element>
+	<element id="6">
+		<item>145.256.65.8</item>
+		<value>false</value>
+	</element>
+	<element id="7">
+		<item>12.5..2</item>
+		<value>false</value>
+	</element>
+	<element id="8">
+		<item>255.255.512.3</item>
+		<value>false</value>
+	</element>
+	<element id="9">
+		<item>....</item>
+		<value>false</value>
+	</element>
+	<element id="10">
+		<item></item>
+		<value>false</value>
+	</element>
+	<element id="11">
+		<item>78.6.5.1.4</item>
+		<value>false</value>
+	</element>
+	<element id="12">
+		<item>788.5.6.8.9.6</item>
+		<value>false</value>
+	</element>
+	<element id="13">
+		<item>2..3.6</item>
+		<value>false</value>
+	</element>
+	<element id="14">
+		<item>2,5,4,9</item>
+		<value>false</value>
+	</element>
+	<element id="15">
+		<item>192.168.0.1</item>
+		<value>true</value>
+	</element>
+	<element id="16">
+		<item>192.168.1.1.</item>
+		<value>false</value>
+	</element>
+	<element id="17">
+		<item>192.168..15.5</item>
+		<value>false</value>
+	</element>
+	<element id="18">
+		<item>25.65.555.51</item>
+		<value>false</value>
+	</element>
+	<element id="19">
+		<item>1.2.3.4</item>
+		<value>true</value>
+	</element>
+	<element id="20">
+		<item>.2.5.6.12</item>
+		<value>false</value>
+	</element>
+	<element id="21">
+		<item>178.65.5.6</item>
+		<value>true</value>
+	</element>
+	<element id="22">
+		<item>7.6.8.6</item>
+		<value>true</value>
+	</element>
+	<element id="23">
+		<item>9-9-23-98</item>
+		<value>false</value>
+	</element>
+	<element id="24">
+		<item>1.255.6.3</item>
+		<value>true</value>
+	</element>
+	<element id="25">
+		<item>1.25.6b.6</item>
+		<value>false</value>
+	</element>
+	<element id="26">
+		<item>4.4.4.4</item>
+		<value>true</value>
+	</element>
+	<element id="27">
+		<item>8.2.3.6</item>
+		<value>true</value>
+	</element>
+	<element id="28">
+		<item>9.66.5.8</item>
+		<value>true</value>
+	</element>
+	<element id="29">
+		<item>9.58.62.145</item>
+		<value>true</value>
+	</element>
+	<element id="30">
+		<item>89.65.54.2</item>
+		<value>true</value>
+	</element>
+	<element id="31">
+		<item>78.98.65.654</item>
+		<value>false</value>
+	</element>
+	<element id="32">
+		<item>124.127.54.878</item>
+		<value>false</value>
+	</element>
+	<element id="33">
+		<item>14.36.5.25</item>
+		<value>true</value>
+	</element>
+	<element id="34">
+		<item>78.9.65.52</item>
+		<value>true</value>
+	</element>
+	<element id="35">
+		<item>.78.65.65.9</item>
+		<value>false</value>
+	</element>
+	<element id="36">
+		<item>127.65.98.652</item>
+		<value>false</value>
+	</element>
+	<element id="37">
+		<item>7.61.62.62</item>
+		<value>true</value>
+	</element>
+	<element id="38">
+		<item>....</item>
+		<value>false</value>
+	</element>
+	<element id="39">
+		<item>8</item>
+		<value>false</value>
+	</element>
+	<element id="40">
+		<item>8.6.5.8</item>
+		<value>true</value>
+	</element>
+	<element id="41">
+		<item>7.96.651.5</item>
+		<value>false</value>
+	</element>
+	<element id="42">
+		<item>127.8.2.66</item>
+		<value>true</value>
+	</element>
+	<element id="43">
+		<item>127.0.0.1</item>
+		<value>true</value>
+	</element>
+	<element id="44">
+		<item>78.65.65.65</item>
+		<value>true</value>
+	</element>
+	<element id="45">
+		<item>78.6</item>
+		<value>false</value>
+	</element>
+	<element id="46">
+		<item>98.6</item>
+		<value>false</value>
+	</element>
+	<element id="47">
+		<item>58</item>
+		<value>false</value>
+	</element>
+	<element id="48">
+		<item>25.556.</item>
+		<value>false</value>
+	</element>
+	<element id="49">
+		<item>545.5.5.</item>
+		<value>false</value>
+	</element>
+	<element id="50">
+		<item>7.</item>
+		<value>false</value>
+	</element>
+</elements>
+</file>

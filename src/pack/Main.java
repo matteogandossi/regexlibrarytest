@@ -21,7 +21,7 @@ public class Main {
 	private final static int LIBRARY = 3;
 	private final static int ITERATIONS = 100000;
 	private final static int NUM_TEST = 10;
-	private static String filename = "floatingLite";
+	private static String filename = "dateLite";
 	
 	/*
 	 * Inizializzazione oggetti globali
@@ -52,7 +52,7 @@ public class Main {
 			ps.println("Number of Tests: \t\t" + NUM_TEST);
 			ps.println("Number of Test Cases: \t" + testSuiteLength);
 			ps.println("Number of Iterations: \t" + ITERATIONS);
-			ps.println("Input Evalueted: \t\t" + (ITERATIONS*testSuiteLength));
+			ps.println("Input Evaluated: \t\t" + (ITERATIONS*testSuiteLength));
 			
 			ps.println();
 			

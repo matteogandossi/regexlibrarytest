@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<file for="hexcolors">
+<regex>\#([a-f]|[A-F]|[0-9]){3}(([a-f]|[A-F]|[0-9]){3}){0,1}</regex>
+<nofelements>50</nofelements>
+<elements>
+	<element id="1">
+		<item>#112233</item>
+		<value>true</value>
+	</element>
+	<element id="2">
+		<item>#a1c2d5</item>
+		<value>true</value>
+	</element>
+	<element id="3">
+		<item>112233</item>
+		<value>false</value>
+	</element>
+	<element id="4">
+		<item>#as1122</item>
+		<value>false</value>
+	</element>
+	<element id="5">
+		<item>#11223344</item>
+		<value>false</value>
+	</element>
+	<element id="6">
+		<item>#ffffff</item>
+		<value>true</value>
+	</element>
+	<element id="7">
+		<item></item>
+		<value>false</value>
+	</element>
+	<element id="8">
+		<item>###</item>
+		<value>false</value>
+	</element>
+	<element id="9">
+		<item>##11879ee</item>
+		<value>false</value>
+	</element>
+	<element id="10">
+		<item>#e1a8ff</item>
+		<value>true</value>
+	</element>
+	<element id="11">
+		<item>e2a6b5</item>
+		<value>false</value>
+	</element>
+	<element id="12">
+		<item>#12c5d8</item>
+		<value>true</value>
+	</element>
+	<element id="13">
+		<item>#59r855</item>
+		<value>false</value>
+	</element>
+	<element id="14">
+		<item>#123</item>
+		<value>true</value>
+	</element>
+	<element id="15">
+		<item>#fff</item>
+		<value>true</value>
+	</element>
+	<element id="16">
+		<item>#1111</item>
+		<value>false</value>
+	</element>
+	<element id="17">
+		<item>#58612</item>
+		<value>false</value>
+	</element>
+	<element id="18">
+		<item>#fedeff</item>
+		<value>true</value>
+	</element>
+	<element id="19">
+		<item>#A2B3F4</item>
+		<value>true</value>
+	</element>
+	<element id="20">
+		<item>#FabDC8</item>
+		<value>true</value>
+	</element>
+	<element id="21">
+		<item>#256897</item>
+		<value>true</value>
+	</element>
+	<element id="22">
+		<item>#E3A698</item>
+		<value>true</value>
+	</element>
+	<element id="23">
+		<item>#CA2201</item>
+		<value>true</value>
+	</element>
+	<element id="24">
+		<item>#F1JH53</item>
+		<value>false</value>
+	</element>
+	<element id="25">
+		<item>#ABC</item>
+		<value>true</value>
+	</element>
+	<element id="26">
+		<item>#ABCH</item>
+		<value>false</value>
+	</element>
+	<element id="27">
+		<item>#ABC2</item>
+		<value>false</value>
+	</element>
+	<element id="28">
+		<item>#ABCDEF</item>
+		<value>true</value>
+	</element>
+	<element id="29">
+		<item>#12345F</item>
+		<value>true</value>
+	</element>
+	<element id="30">
+		<item>#589</item>
+		<value>true</value>
+	</element>
+	<element id="31">
+		<item>#879FBA</item>
+		<value>true</value>
+	</element>
+	<element id="32">
+		<item>#BCD</item>
+		<value>true</value>
+	</element>
+	<element id="33">
+		<item>#EF4985</item>
+		<value>true</value>
+	</element>
+	<element id="34">
+		<item>#698A95</item>
+		<value>true</value>
+	</element>
+	<element id="35">
+		<item>#5885469</item>
+		<value>false</value>
+	</element>
+	<element id="36">
+		<item>#987654</item>
+		<value>true</value>
+	</element>
+	<element id="37">
+		<item>987654</item>
+		<value>false</value>
+	</element>
+	<element id="38">
+		<item>#F16ATA</item>
+		<value>false</value>
+	</element>
+	<element id="39">
+		<item>#5894T5</item>
+		<value>false</value>
+	</element>
+	<element id="40">
+		<item>#123DEf</item>
+		<value>true</value>
+	</element>
+	<element id="41">
+		<item>#gfyghjgh</item>
+		<value>false</value>
+	</element>
+	<element id="42">
+		<item>#abc123</item>
+		<value>true</value>
+	</element>
+	<element id="43">
+		<item>#25f8EA</item>
+		<value>true</value>
+	</element>
+	<element id="44">
+		<item>#98BCA1</item>
+		<value>true</value>
+	</element>
+	<element id="45">
+		<item>#156ABC</item>
+		<value>true</value>
+	</element>
+	<element id="46">
+		<item>#FF5ABC</item>
+		<value>true</value>
+	</element>
+	<element id="47">
+		<item>#14HJ78</item>
+		<value>false</value>
+	</element>
+	<element id="48">
+		<item>899254</item>
+		<value>false</value>
+	</element>
+	<element id="49">
+		<item>#FA2345</item>
+		<value>true</value>
+	</element>
+	<element id="50">
+		<item>#aBc123</item>
+		<value>true</value>
+	</element>
+</elements>
+</file>

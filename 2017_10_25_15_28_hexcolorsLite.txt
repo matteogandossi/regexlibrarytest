@@ -1,0 +1,22 @@
+Testing on file: 		hexcolorsLite
+Date of test: 			25/10/2017 15:28
+Number of Libraries: 	3
+Number of Tests: 		10
+Number of Test Cases: 	50
+Number of Iterations: 	100000
+Input Evaluated: 		5000000
+
+Time result
+JUtil 	  781   683   691   692   681   675   683   679   674   695 
+Brics 	   62    47    47    47    47    47    47    47    47    47 
+JRegex 	 3421  3371  3375  3438  3391  3382  3378  3383  3381  3359 
+
+Matching rate
+JUtil 	  1,0   1,0   1,0   1,0   1,0   1,0   1,0   1,0   1,0   1,0 
+Brics 	  0,4   0,4   0,4   0,4   0,4   0,4   0,4   0,4   0,4   0,4 
+JRegex 	  1,0   1,0   1,0   1,0   1,0   1,0   1,0   1,0   1,0   1,0 
+
+Time Means
+JUtil:		693
+Brics:		48
+JRegex:		3387

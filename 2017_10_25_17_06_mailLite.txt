@@ -1,0 +1,22 @@
+Testing on file: 		mailLite
+Date of test: 			25/10/2017 17:06
+Number of Libraries: 	3
+Number of Tests: 		10
+Number of Test Cases: 	30
+Number of Iterations: 	100000
+Input Evaluated: 		3000000
+
+Time result
+JUtil 	 1580  1452  1436  1445  1446  1453  1445  1451  1444  1458 
+Brics 	  831   808   822   822   817   832   825   815   823   818 
+JRegex 	 1163  1047  1031  1032  1032  1047  1032  1045  1031  1036 
+
+Matching rate
+JUtil 	  1,0   1,0   1,0   1,0   1,0   1,0   1,0   1,0   1,0   1,0 
+Brics 	  1,0   1,0   1,0   1,0   1,0   1,0   1,0   1,0   1,0   1,0 
+JRegex 	  1,0   1,0   1,0   1,0   1,0   1,0   1,0   1,0   1,0   1,0 
+
+Time Means
+JUtil:		1461
+Brics:		821
+JRegex:		1049
