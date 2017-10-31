@@ -1,0 +1,22 @@
+Testing on file: 		mailshortLite
+Date of test: 			26/10/2017 10:32
+Number of Libraries: 	3
+Number of Tests: 		10
+Number of Test Cases: 	25
+Number of Iterations: 	100000
+Input Evaluated: 		2500000
+
+Time result
+JUtil 	 1141   963   984   956   969   962   969   967   969   955 
+Brics 	  676   672   664   672   660   656   654   657   665   672 
+JRegex 	  609   552   547   533   547   544   547   543   547   566 
+
+Matching rate
+JUtil 	  1,0   1,0   1,0   1,0   1,0   1,0   1,0   1,0   1,0   1,0 
+Brics 	  1,0   1,0   1,0   1,0   1,0   1,0   1,0   1,0   1,0   1,0 
+JRegex 	  1,0   1,0   1,0   1,0   1,0   1,0   1,0   1,0   1,0   1,0 
+
+Time Means
+JUtil:		983
+Brics:		664
+JRegex:		553

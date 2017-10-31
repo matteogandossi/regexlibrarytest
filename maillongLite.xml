@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<file for="maillong">
+<regex>([A-Za-z0-9\_\-]+|([A-Za-z0-9\_\-]{1,}\.[A-Za-z0-9\_\-]{1,})+)\@[A-Za-z0-9\.\-]+\.([A-Za-z]{2,10})</regex>
+<nofelements>1</nofelements>
+<elements>
+	<element id="34">
+		<item>hgdhdjhdjhfdjhdjhvfdjhdjhvdjhbsdjhsdjhbsdjhvsdjhbsdsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdsd@sdjhvsdjhvdjhvsdjhvsdjhvjhvsdjhvsdjhvdjhvsdjhvsdjhvsdjhvdjhvdjhvsdjhvdjhvsdjhvdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsj.hvdsjhvdsdjhvsddhbfhdbfhbfhdbfit</item>
+		<value>false</value>
+	</element>
+	<element id="35">
+		<item>hgdhdjhdjhfdjhdjhvfdjhdjhvdjhbsdjhsdj_jhvsdjhvsdjhvsdjhvsdjhvsdsd@sdjhvsdjhvdjhvsdjhvsdjhvjhvsdjhvsdjhvdjhvsdjhvsdjhvsdjhvdjhvdjhvsdjhvdjhvsdjhvdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsj.hvdsjt</item>
+		<value>true</value>
+	</element>
+	<element id="36">
+		<item>hgdhdjhdjhfdjhdjhvfdjhdjhvdjhbsdjhsdjhbsdjhvshdbfsjhbfsjhdfbsjhd.vsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdsd@sdjhvsdjhvdjhvsdjhvsdjhvjhvsdjhvsdjhvdjhvsdjhvsdjhvsdjhvdjhvdjhvsdjhvdjhvsdjhvdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsj.hvdsjt</item>
+		<value>true</value>
+	</element>
+	<element id="37">
+		<item>hgdhdjhdjhfdjhdjhvfdjhdvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdsd@sdjhvsdjhvdjhvsdjhvsdjhvjhvsdjhvsdjhvdjhvsdjhvsdjhvsdjhvdjhvdjhvsdjhvdjhvsdjhvdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsj.hvdsjhvdsdjhvsddhbfhdbfhbfhdbfit</item>
+		<value>false</value>
+	</element>
+	<element id="38">
+		<item>hgdhdjhdjhfdjhdjhvfdjhdjhdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdsd@sdjhvsdjhvdjhvsdjhvsdjhvjhvsdjhvsdjhvdjhvsdjhvsdjhvsdjhvdjhvdjhvsdjhvdjhvsdjhvdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsj.hvdsjt</item>
+		<value>true</value>
+	</element>
+	<element id="34">
+		<item>hgdhdjhdjhfdjhdjhvfdjhdjhvdjhbsdjhsdjhbsdjhvsdjhbsdsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdsd@sdjhvsdjhvdjhvsdjhvsdjhvjhvsdjhvsdjhvdjhvsdjhvsdjhvsdjhvdjhvdjhvsdjhvdjhvsdjhvdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsj.hvdsjhvdsdjhvsddhbfhdbfhbfhdbfit</item>
+		<value>false</value>
+	</element>
+	<element id="35">
+		<item>hgdhdjhdjhfdjhdjhvfdjhdjhvdjhbsdjhsdj_jhvsdjhvsdjhvsdjhvsdjhvsdsd@sdjhvsdjhvdjhvsdjhvsdjhvjhvsdjhvsdjhvdjhvsdjhvsdjhvsdjhvdjhvdjhvsdjhvdjhvsdjhvdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsj.hvdsjt</item>
+		<value>true</value>
+	</element>
+	<element id="36">
+		<item>hgdhdjhdjhfdjhdjhvfdjhdjhvdjhbsdjhsdjhbsdjhvshdbfsjhbfsjhdfbsjhd.vsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdsd@sdjhvsdjhvdjhvsdjhvsdjhvjhvsdjhvsdjhvdjhvsdjhvsdjhvsdjhvdjhvdjhvsdjhvdjhvsdjhvdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsj.hvdsjt</item>
+		<value>true</value>
+	</element>
+	<element id="37">
+		<item>hgdhdjhdjhfdjhdjhvfdjhdvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdsd@sdjhvsdjhvdjhvsdjhvsdjhvjhvsdjhvsdjhvdjhvsdjhvsdjhvsdjhvdjhvdjhvsdjhvdjhvsdjhvdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsj.hvdsjhvdsdjhvsddhbfhdbfhbfhdbfit</item>
+		<value>false</value>
+	</element>
+	<element id="38">
+		<item>hgdhdjhdjhfdjhdjhvfdjhdjhdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdsd@sdjhvsdjhvdjhvsdjhvsdjhvjhvsdjhvsdjhvdjhvsdjhvsdjhvsdjhvdjhvdjhvsdjhvdjhvsdjhvdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsj.hvdsjt</item>
+		<value>true</value>
+	</element>
+	<element id="34">
+		<item>hgdhdjhdjhfdjhdjhvfdjhdjhvdjhbsdjhsdjhbsdjhvsdjhbsdsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdsd@sdjhvsdjhvdjhvsdjhvsdjhvjhvsdjhvsdjhvdjhvsdjhvsdjhvsdjhvdjhvdjhvsdjhvdjhvsdjhvdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsj.hvdsjhvdsdjhvsddhbfhdbfhbfhdbfit</item>
+		<value>false</value>
+	</element>
+	<element id="35">
+		<item>hgdhdjhdjhfdjhdjhvfdjhdjhvdjhbsdjhsdj_jhvsdjhvsdjhvsdjhvsdjhvsdsd@sdjhvsdjhvdjhvsdjhvsdjhvjhvsdjhvsdjhvdjhvsdjhvsdjhvsdjhvdjhvdjhvsdjhvdjhvsdjhvdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsj.hvdsjt</item>
+		<value>true</value>
+	</element>
+	<element id="36">
+		<item>hgdhdjhdjhfdjhdjhvfdjhdjhvdjhbsdjhsdjhbsdjhvshdbfsjhbfsjhdfbsjhd.vsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdsd@sdjhvsdjhvdjhvsdjhvsdjhvjhvsdjhvsdjhvdjhvsdjhvsdjhvsdjhvdjhvdjhvsdjhvdjhvsdjhvdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsj.hvdsjt</item>
+		<value>true</value>
+	</element>
+	<element id="37">
+		<item>hgdhdjhdjhfdjhdjhvfdjhdvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdsd@sdjhvsdjhvdjhvsdjhvsdjhvjhvsdjhvsdjhvdjhvsdjhvsdjhvsdjhvdjhvdjhvsdjhvdjhvsdjhvdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsj.hvdsjhvdsdjhvsddhbfhdbfhbfhdbfit</item>
+		<value>false</value>
+	</element>
+	<element id="38">
+		<item>hgdhdjhdjhfdjhdjhvfdjhdjhdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdsd@sdjhvsdjhvdjhvsdjhvsdjhvjhvsdjhvsdjhvdjhvsdjhvsdjhvsdjhvdjhvdjhvsdjhvdjhvsdjhvdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsj.hvdsjt</item>
+		<value>true</value>
+	</element>
+	<element id="34">
+		<item>hgdhdjhdjhfdjhdjhvfdjhdjhvdjhbsdjhsdjhbsdjhvsdjhbsdsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdsd@sdjhvsdjhvdjhvsdjhvsdjhvjhvsdjhvsdjhvdjhvsdjhvsdjhvsdjhvdjhvdjhvsdjhvdjhvsdjhvdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsj.hvdsjhvdsdjhvsddhbfhdbfhbfhdbfit</item>
+		<value>false</value>
+	</element>
+	<element id="35">
+		<item>hgdhdjhdjhfdjhdjhvfdjhdjhvdjhbsdjhsdj_jhvsdjhvsdjhvsdjhvsdjhvsdsd@sdjhvsdjhvdjhvsdjhvsdjhvjhvsdjhvsdjhvdjhvsdjhvsdjhvsdjhvdjhvdjhvsdjhvdjhvsdjhvdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsj.hvdsjt</item>
+		<value>true</value>
+	</element>
+	<element id="36">
+		<item>hgdhdjhdjhfdjhdjhvfdjhdjhvdjhbsdjhsdjhbsdjhvshdbfsjhbfsjhdfbsjhd.vsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdsd@sdjhvsdjhvdjhvsdjhvsdjhvjhvsdjhvsdjhvdjhvsdjhvsdjhvsdjhvdjhvdjhvsdjhvdjhvsdjhvdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsj.hvdsjt</item>
+		<value>true</value>
+	</element>
+	<element id="37">
+		<item>hgdhdjhdjhfdjhdjhvfdjhdvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdsd@sdjhvsdjhvdjhvsdjhvsdjhvjhvsdjhvsdjhvdjhvsdjhvsdjhvsdjhvdjhvdjhvsdjhvdjhvsdjhvdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsj.hvdsjhvdsdjhvsddhbfhdbfhbfhdbfit</item>
+		<value>false</value>
+	</element>
+	<element id="38">
+		<item>hgdhdjhdjhfdjhdjhvfdjhdjhdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdsd@sdjhvsdjhvdjhvsdjhvsdjhvjhvsdjhvsdjhvdjhvsdjhvsdjhvsdjhvdjhvdjhvsdjhvdjhvsdjhvdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsj.hvdsjt</item>
+		<value>true</value>
+	</element>
+	<element id="34">
+		<item>hgdhdjhdjhfdjhdjhvfdjhdjhvdjhbsdjhsdjhbsdjhvsdjhbsdsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdsd@sdjhvsdjhvdjhvsdjhvsdjhvjhvsdjhvsdjhvdjhvsdjhvsdjhvsdjhvdjhvdjhvsdjhvdjhvsdjhvdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsj.hvdsjhvdsdjhvsddhbfhdbfhbfhdbfit</item>
+		<value>false</value>
+	</element>
+	<element id="35">
+		<item>hgdhdjhdjhfdjhdjhvfdjhdjhvdjhbsdjhsdj_jhvsdjhvsdjhvsdjhvsdjhvsdsd@sdjhvsdjhvdjhvsdjhvsdjhvjhvsdjhvsdjhvdjhvsdjhvsdjhvsdjhvdjhvdjhvsdjhvdjhvsdjhvdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsj.hvdsjt</item>
+		<value>true</value>
+	</element>
+	<element id="36">
+		<item>hgdhdjhdjhfdjhdjhvfdjhdjhvdjhbsdjhsdjhbsdjhvshdbfsjhbfsjhdfbsjhd.vsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdsd@sdjhvsdjhvdjhvsdjhvsdjhvjhvsdjhvsdjhvdjhvsdjhvsdjhvsdjhvdjhvdjhvsdjhvdjhvsdjhvdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsj.hvdsjt</item>
+		<value>true</value>
+	</element>
+	<element id="37">
+		<item>hgdhdjhdjhfdjhdjhvfdjhdvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdsd@sdjhvsdjhvdjhvsdjhvsdjhvjhvsdjhvsdjhvdjhvsdjhvsdjhvsdjhvdjhvdjhvsdjhvdjhvsdjhvdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsj.hvdsjhvdsdjhvsddhbfhdbfhbfhdbfit</item>
+		<value>false</value>
+	</element>
+	<element id="38">
+		<item>hgdhdjhdjhfdjhdjhvfdjhdjhdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdsd@sdjhvsdjhvdjhvsdjhvsdjhvjhvsdjhvsdjhvdjhvsdjhvsdjhvsdjhvdjhvdjhvsdjhvdjhvsdjhvdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsdjhvsj.hvdsjt</item>
+		<value>true</value>
+	</element>
+</elements>
+</file>

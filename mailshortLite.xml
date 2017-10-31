@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<file for="mailshort">
+<regex>([A-Za-z0-9\_\-]+|([A-Za-z0-9\_\-]{1,}\.[A-Za-z0-9\_\-]{1,})+)\@[A-Za-z0-9\.\-]+\.([A-Za-z]{2,10})</regex>
+<nofelements>1</nofelements>
+<elements>
+	<element id="7">
+		<item>email@example.name</item>
+		<value>true</value>
+	</element>
+	<element id="8">
+		<item>email@example.museum</item>
+		<value>true</value>
+	</element>
+	<element id="9">
+		<item>firstname-lastname@example.com</item>
+		<value>true</value>
+	</element>
+	<element id="10">
+		<item>plainaddress</item>
+		<value>false</value>
+	</element>
+	<element id="11">
+		<item>@example.com</item>
+		<value>false</value>
+	</element>
+	<element id="7">
+		<item>email@example.name</item>
+		<value>true</value>
+	</element>
+	<element id="8">
+		<item>email@example.museum</item>
+		<value>true</value>
+	</element>
+	<element id="9">
+		<item>firstname-lastname@example.com</item>
+		<value>true</value>
+	</element>
+	<element id="10">
+		<item>plainaddress</item>
+		<value>false</value>
+	</element>
+	<element id="11">
+		<item>@example.com</item>
+		<value>false</value>
+	</element>
+	<element id="7">
+		<item>email@example.name</item>
+		<value>true</value>
+	</element>
+	<element id="8">
+		<item>email@example.museum</item>
+		<value>true</value>
+	</element>
+	<element id="9">
+		<item>firstname-lastname@example.com</item>
+		<value>true</value>
+	</element>
+	<element id="10">
+		<item>plainaddress</item>
+		<value>false</value>
+	</element>
+	<element id="11">
+		<item>@example.com</item>
+		<value>false</value>
+	</element>
+	<element id="7">
+		<item>email@example.name</item>
+		<value>true</value>
+	</element>
+	<element id="8">
+		<item>email@example.museum</item>
+		<value>true</value>
+	</element>
+	<element id="9">
+		<item>firstname-lastname@example.com</item>
+		<value>true</value>
+	</element>
+	<element id="10">
+		<item>plainaddress</item>
+		<value>false</value>
+	</element>
+	<element id="11">
+		<item>@example.com</item>
+		<value>false</value>
+	</element>
+	<element id="7">
+		<item>email@example.name</item>
+		<value>true</value>
+	</element>
+	<element id="8">
+		<item>email@example.museum</item>
+		<value>true</value>
+	</element>
+	<element id="9">
+		<item>firstname-lastname@example.com</item>
+		<value>true</value>
+	</element>
+	<element id="10">
+		<item>plainaddress</item>
+		<value>false</value>
+	</element>
+	<element id="11">
+		<item>@example.com</item>
+		<value>false</value>
+	</element>
+</elements>
+</file>

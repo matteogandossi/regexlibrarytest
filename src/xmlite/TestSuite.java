@@ -44,6 +44,15 @@ public class TestSuite {
 		return (double)corrette/lista.size();
 	}
 	
+	public boolean evaluate(Library l,int test_case) {
+		
+		return (l.match(lista.get(test_case).getItem()) == lista.get(test_case).getValue());
+	}
+	
+	public int testCaseSize(int test_case) {
+		return lista.get(test_case).getItem().length();
+	}
+	
 	@Override
 	public String toString() {
 		
@@ -52,6 +61,10 @@ public class TestSuite {
 	
 	public int size() {
 		return lista.size();
+	}
+
+	public boolean testCaseValue(int test_case) {
+		return lista.get(test_case).getValue();
 	}
 
 }

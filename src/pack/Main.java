@@ -19,89 +19,67 @@ public class Main {
 	 * Dichiarazione numero prove
 	 */
 	private final static int LIBRARY = 3;
-	private final static int ITERATIONS = 100000;
-	private final static int NUM_TEST = 10;
-	private static String filename = "dateLite";
+	private final static int ITERATIONS = 2000000;
+	private final static int NUM_TEST = 5;
+	private static String filename = "hexcolorsLite";
+	private static String regexType = "Misto";	
 	
 	/*
 	 * Inizializzazione oggetti globali
 	 */
-	private static Times times = new Times(LIBRARY, NUM_TEST);
-	private static double allscore[][] = new double[LIBRARY][NUM_TEST];
-	private static Library[] lib = new Library[LIBRARY];
+	private static Times times;
+	private static TestSuite testSuite;
+	private static boolean allCorrect[][];
+	private static Library[] lib = new Library[LIBRARY];	
 	
 	/*
-	 * Metodo di scrittura su file
+	 * Salvataggio file CSV
 	 */
-	private static void saveonFile(int testSuiteLength) {
+	private static void saveonFile(int TSLength) {
 		
 		SimpleDateFormat sdf = new SimpleDateFormat("yyyy_MM_dd_HH_mm");
-		String outputFile = sdf.format(Calendar.getInstance().getTime()) + "_" + filename + ".txt";
-		
-		SimpleDateFormat format = new SimpleDateFormat("dd/MM/yyyy HH:mm");
-		String today = format.format(Calendar.getInstance().getTime());
+		String outputFile = sdf.format(Calendar.getInstance().getTime()) + "_" + filename + ".csv";
 		
 		FileOutputStream out;
+		
 		try {
+			
 			out = new FileOutputStream(outputFile);
 			PrintStream ps = new PrintStream(out);
 			
-			ps.println("Testing on file: \t\t" + filename);
-			ps.println("Date of test: \t\t\t" + today);
-			ps.println("Number of Libraries: \t" + LIBRARY);
-			ps.println("Number of Tests: \t\t" + NUM_TEST);
-			ps.println("Number of Test Cases: \t" + testSuiteLength);
-			ps.println("Number of Iterations: \t" + ITERATIONS);
-			ps.println("Input Evaluated: \t\t" + (ITERATIONS*testSuiteLength));
-			
+			ps.print("RegexName,TestCase,TCLength,RegexType,ExpectedValue,Library,Result,Time(ms)");			
 			ps.println();
 			
-			//stampa dei tempi
-			ps.println("Time result");
-			for(int i=0; i<LIBRARY; i++) {
-				
-				ps.print(lib[i].libraryName()+" \t");
-				
-				for(int j=0; j<NUM_TEST; j++)
-					ps.format("%5d ", times.get(i, j));
-				ps.print("\n");
-			}
+			for(int i=0; i<TSLength; i++) 	
+				for(int j=0; j<LIBRARY; j++) {
+					
+					ps.print(filename + "," + (i+1) + ",");
+					ps.print(testSuite.testCaseSize(i) + "," + regexType + ",");
+					ps.print(testSuite.testCaseValue(i) + "," + lib[j].libraryName() + ",");
+					ps.print(allCorrect[j][i] + "," + times.mean(j, i));
+					ps.print("\n");
+				}
 			
-			ps.println();
+			out.close();
 			
-			//stampa dei tempi
-			ps.println("Matching rate");
-			for(int i=0; i<LIBRARY; i++) {
-				
-				ps.print(lib[i].libraryName()+" \t");
-				
-				for(int j=0; j<NUM_TEST; j++)
-					ps.format("%5.1f ", allscore[i][j]);
-				ps.print("\n");
-			}
-			
-			ps.println();
-			
-			//stampa delle medie
-			ps.println("Time Means");
-			for(int i=0; i<LIBRARY; i++)				
-				ps.println(lib[i].libraryName()+":\t\t"+times.mean(i));			
-			
-			out.close();			
+			System.out.println("Scrittura su file effettuata.");
 			
 		} catch (IOException e) {}		
 		
 	}
-
+	
+	
 	public static void main(String[] args) {
 		
 		long begin,end;
-		double score = 0.0;		
+		boolean correct = true;
+		int sizeTS;
 		
 		/*
 		 * Lettura da file
 		 */		
-		TestSuite testSuite = Reader.read(filename + ".xml");
+		testSuite = Reader.read(filename + ".xml");
+		sizeTS = testSuite.size();
 		String regex = Reader.getRegex(filename + ".xml");
 		
 		/*
@@ -112,47 +90,65 @@ public class Main {
 		lib[2] = new JRegex();
 		
 		/*
-		 * Inserimento regex
+		 * Inizializzazione var
 		 */
-		for(int library=0; library<LIBRARY; library++) {
-			lib[library].setRegex(regex);
-			testSuite.evaluate(lib[library]);
-		}
+		times = new Times(LIBRARY, testSuite.size(), NUM_TEST);
+		allCorrect = new boolean[LIBRARY][testSuite.size()];
 		
-		for(int test=0; test<NUM_TEST; test++) {
+		/*
+		 * Inizializzazione automa
+		 */
+		for(int library=0; library<LIBRARY; library++)
+			lib[library].setRegex(regex);
+		
+		/*
+		 * Test
+		 */
+		for(int test_case=0; test_case<sizeTS; test_case++) {
 			
-			System.out.println("---TEST " + (test+1));			
+			System.out.println("---TEST FOR STR " + (test_case+1));
 			
 			for(int library=0; library<LIBRARY; library++) {
 				
 				int i;
+				Library current_lib = lib[library];
 				
-				begin = System.currentTimeMillis();
+				for(int num_test=0; num_test<NUM_TEST; num_test++) {
+					
+					begin = System.currentTimeMillis();
+					
+					for(i=0; i<ITERATIONS; i++)
+						correct = testSuite.evaluate(current_lib, test_case);
+					
+					end = System.currentTimeMillis();
+					
+					times.set(library, test_case, num_test, (end-begin));
+					System.out.println("Analisi lib \"" + lib[library].libraryName() + "\"");
+					System.out.println("Proof: "+(num_test+1));
+					System.out.println("Tempo: " + times.get(library,test_case,num_test));
+					
+				}
 				
-				for(i=0; i<ITERATIONS; i++)
-					score = testSuite.evaluate(lib[library]);
+				allCorrect[library][test_case] = correct;				
 				
-				end = System.currentTimeMillis();
-				
-				allscore[library][test] = score;
-				
-				times.set(library, test, (end-begin));
-				
-				System.out.println("Analisi lib \"" + lib[library].libraryName() + "\" with score = " + (score*100) + "%");
-				System.out.println("Tempo: " + times.get(library, test));
 			}
 			
-			System.out.println("---END TEST " + (test+1) +"\n");			
+			System.out.println("---END TEST\n");
 			
 		}
 		
-		saveonFile(testSuite.size());
-		
-		System.out.println("Medie valutazioni");		
-		//stampa delle medie
-		for(int library=0; library<LIBRARY; library++) 
-			System.out.println("Libreria \"" + lib[library].libraryName() +"\": \t" + times.mean(library));		
+		for(int i=0; i<LIBRARY; i++) {
 			
+			System.out.println(lib[i].libraryName()+"\t");
+			for(int j=0; j<sizeTS; j++) {
+				
+				System.out.format("%3d ", times.mean(i, j));				
+			}
+			System.out.println();
+		}
+		
+		saveonFile(sizeTS);
+
 	}
 
 }

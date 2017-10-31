@@ -1,0 +1,22 @@
+Testing on file: 		dateLite
+Date of test: 			26/10/2017 09:44
+Number of Libraries: 	3
+Number of Tests: 		10
+Number of Test Cases: 	50
+Number of Iterations: 	100000
+Input Evaluated: 		5000000
+
+Time result
+JUtil 	  825   657   650   670   649   721   661   822   659   647 
+Brics 	  547   563   537   547   542   557   549   538   536   549 
+JRegex 	 1561  1491  1544  1520  2052  1566  1546  1515  1499  1516 
+
+Matching rate
+JUtil 	  1,0   1,0   1,0   1,0   1,0   1,0   1,0   1,0   1,0   1,0 
+Brics 	  1,0   1,0   1,0   1,0   1,0   1,0   1,0   1,0   1,0   1,0 
+JRegex 	  1,0   1,0   1,0   1,0   1,0   1,0   1,0   1,0   1,0   1,0 
+
+Time Means
+JUtil:		696
+Brics:		546
+JRegex:		1581

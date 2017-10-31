@@ -2,21 +2,23 @@ package library;
 
 import dk.brics.automaton.Automaton;
 import dk.brics.automaton.RegExp;
+import dk.brics.automaton.RunAutomaton;
 
 public class Brics extends Library {
 	
-	Automaton automaton;
+	RunAutomaton runAutomaton;
 
 	@Override
 	public boolean match(String input) {		
-		return automaton.run(input);
+		return runAutomaton.run(input);
 	}
 
 	@Override
 	public void setRegex(String regex) {
 		
 		RegExp r = new RegExp(regex);
-		automaton = r.toAutomaton();		
+		Automaton automaton = r.toAutomaton();
+		runAutomaton = new RunAutomaton(automaton);
 	}
 
 	@Override

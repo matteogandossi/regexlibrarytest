@@ -1,0 +1,22 @@
+Testing on file: 		maillongLite
+Date of test: 			26/10/2017 10:30
+Number of Libraries: 	3
+Number of Tests: 		10
+Number of Test Cases: 	25
+Number of Iterations: 	100000
+Input Evaluated: 		2500000
+
+Time result
+JUtil 	 9845  9778  9831  9866  9896  9997  9835 10053  9831  9854 
+Brics 	 9744  9723  9742  9847  9795  9795  9742  9742  9758  9763 
+JRegex 	 1704  1641  1632  1655  1686  1627  1641  1639  1633  1683 
+
+Matching rate
+JUtil 	  1,0   1,0   1,0   1,0   1,0   1,0   1,0   1,0   1,0   1,0 
+Brics 	  1,0   1,0   1,0   1,0   1,0   1,0   1,0   1,0   1,0   1,0 
+JRegex 	  1,0   1,0   1,0   1,0   1,0   1,0   1,0   1,0   1,0   1,0 
+
+Time Means
+JUtil:		9878
+Brics:		9765
+JRegex:		1654
