@@ -7,6 +7,7 @@ import java.text.SimpleDateFormat;
 import java.util.Calendar;
 
 import library.Brics;
+import library.FastBrics;
 import library.JRegex;
 import library.JUtil;
 import library.Library;
@@ -18,11 +19,11 @@ public class Main {
 	/*
 	 * Dichiarazione numero prove
 	 */
-	private final static int LIBRARY = 3;
+	private final static int LIBRARY = 4;
 	private final static int ITERATIONS = 2000000;
 	private final static int NUM_TEST = 5;
-	private static String filename = "hexcolorsLite";
-	private static String regexType = "Misto";	
+	private static String filename = "sololettereLite";
+	private static String regexType = "Numeric";	
 	
 	/*
 	 * Inizializzazione oggetti globali
@@ -38,7 +39,7 @@ public class Main {
 	private static void saveonFile(int TSLength) {
 		
 		SimpleDateFormat sdf = new SimpleDateFormat("yyyy_MM_dd_HH_mm");
-		String outputFile = sdf.format(Calendar.getInstance().getTime()) + "_" + filename + ".csv";
+		String outputFile = sdf.format(Calendar.getInstance().getTime()) + "_" + filename + "_v2.csv";
 		
 		FileOutputStream out;
 		
@@ -47,7 +48,7 @@ public class Main {
 			out = new FileOutputStream(outputFile);
 			PrintStream ps = new PrintStream(out);
 			
-			ps.print("RegexName,TestCase,TCLength,RegexType,ExpectedValue,Library,Result,Time(ms)");			
+			ps.print("RegexName,TestCase,TCLength,RegexType,ExpectedValue,Library,Result,Time");			
 			ps.println();
 			
 			for(int i=0; i<TSLength; i++) 	
@@ -87,7 +88,8 @@ public class Main {
 		 */		
 		lib[0] = new JUtil();
 		lib[1] = new Brics();
-		lib[2] = new JRegex();
+		lib[2] = new FastBrics();
+		lib[3] = new JRegex();
 		
 		/*
 		 * Inizializzazione var
