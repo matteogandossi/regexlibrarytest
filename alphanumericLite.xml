@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<file for="alphanumeric">
+<regex>[a-zA-Z0-9]+</regex>
+<nofelements>50</nofelements>
+<elements>
+	<element id="1">
+		<item>8Z3Y</item>
+		<value>true</value>
+	</element>
+	<element id="2">
+		<item>rrK9SXSo</item>
+		<value>true</value>
+	</element>
+	<element id="3">
+		<item>hri6r9W5XQ2h</item>
+		<value>true</value>
+	</element>
+	<element id="4">
+		<item>k0SWQ2zIcrn0sNDE</item>
+		<value>true</value>
+	</element>
+	<element id="5">
+		<item>cOT1ENZnAfYMGZ1wYvvq</item>
+		<value>true</value>
+	</element>
+	<element id="6">
+		<item>qbM0MUvoiVxpy2jC7XPb23og</item>
+		<value>true</value>
+	</element>
+	<element id="7">
+		<item>2B4ma8o4iFnV2zdsksju0x8HvnH3</item>
+		<value>true</value>
+	</element>
+	<element id="8">
+		<item>J7Csca46vhVS4kqpg8T6UJEY3D88r4lO</item>
+		<value>true</value>
+	</element>
+	<element id="9">
+		<item>3G8w6J0c0aceF3oQ33k629cO864jv4wN0K0p</item>
+		<value>true</value>
+	</element>
+	<element id="10">
+		<item>Y60Zp0WS5592B0c9w7UNMHjuAs5N1To71njJZbKV</item>
+		<value>true</value>
+	</element>
+	<element id="11">
+		<item>y426ghqpp5t0cwlv3cCML3C2V8827hzp4tqqXLj1LC1w</item>
+		<value>true</value>
+	</element>
+	<element id="12">
+		<item>M1s8F0X80ZZ2ISuNbHk32dW9lCluvJ09Xs6wylqIXG63g5NK</item>
+		<value>true</value>
+	</element>
+	<element id="13">
+		<item>8BSzXnl2jHxA9XQ0rRrxn2J2qE1L02Si9jxH92vr0f0MNyX036Fk</item>
+		<value>true</value>
+	</element>
+	<element id="14">
+		<item>nhQ5B3M342w6n0anc4Vxm03cWWF2r4G8Hi1I6Ey2MWEyDE46j5Wne9WE</item>
+		<value>true</value>
+	</element>
+	<element id="15">
+		<item>A8vsVsLtGYSMXVdYK6iqhmuc4etmVFg6frHEEK1v4KZr52G0wLhXyfExc0eI</item>
+		<value>true</value>
+	</element>
+	<element id="16">
+		<item>kwL9PuPk81970Ll4pUFmnMvxsSoSdnK09U38J9qEppDfDfJ9nX4taB6CQsVB272l</item>
+		<value>true</value>
+	</element>
+	<element id="17">
+		<item>jIQHah5uJH8Nftp3Ds7w8vtOXjK9aOFW3v1qR21dsrpxI52m9Wj16yX4BS7IPZ81x9dM</item>
+		<value>true</value>
+	</element>
+	<element id="18">
+		<item>PGNXv1t4Q9nI707f9IZYUmu4z371y9h5xF87iGI6BR4WXEtzJaK9DbXI4788u350W0O3XlL9</item>
+		<value>true</value>
+	</element>
+	<element id="19">
+		<item>K6VUTS028FyfD8kw9pf4Qb4pn7BGWui52Jd54hINXV8jWG1Hrxv6FbhQ42QUS9eBzYoociy7YXe0</item>
+		<value>true</value>
+	</element>
+	<element id="20">
+		<item>66H7v0D2S901WlfNP1269ani08Lq5mq2vK7Q49oB1T5HDq0dF9r1x3TD0Jx5813rya2O3YCR3VxT3E6q</item>
+		<value>true</value>
+	</element>
+	<element id="21">
+		<item>S7cgTp07C9bjR353f1yHs0D602Fu6tR7C0w9y5Ku2pa22MDCO9865lA5oTPMShO4ktV28s1W1XO08Hr64v93</item>
+		<value>true</value>
+	</element>
+	<element id="22">
+		<item>1mMf7Fi2SH97R99Wtf4nVzVHoS0F3rXLv8Pugt2mADICPFDp2Q0g5TGJ5EXK51Ln0r6nf902zQ4QQ5zpS674ym2G</item>
+		<value>true</value>
+	</element>
+	<element id="23">
+		<item>Al14jk3gjJioAT2r38y7Q98zkfT3I4lRLGzTFb2MMKp3ica8kP3JnTU74QE06hP9wJqNjJ3d1G864EWMSx0devJaN4DQ</item>
+		<value>true</value>
+	</element>
+	<element id="24">
+		<item>JdF20I45CIss9OttomzKR6O9otiA3m0P4jLDZyxkCOLFG4C13x35P3jwBq0m2h16Sr3I3ken8Vli94q5q594nib8Csl7as9M</item>
+		<value>true</value>
+	</element>
+	<element id="25">
+		<item>nk55zK03fP66613fnOU5dpEZ4cUwbC18XAGTaFgM798erKVEH6w488Tv9XpeLD4w3AR9I0Fsy2FWaBi59Xi7qJE81Z7M4iQ1gA7a</item>
+		<value>true</value>
+	</element>
+	<element id="26">
+		<item>d545FpslWLsW56bEkcEtM6PeI54gKFj60hLv1vJn6xLujt3pqkM7uF9oOTRcR3HSj77CsiiBq6zyLKI69m168Y8mP2f5X0FXYQ8EjG25</item>
+		<value>true</value>
+	</element>
+	<element id="27">
+		<item>q00e8HIkI2s6lVZBj0YavqVSga2e6QW3Di2kz4LaxfIpEu0s1GbmcgqrB4KHL57uPZQbAFsnU3gXe7Gf2HG3K6Ai0Z60MZiJply7D470zU6g</item>
+		<value>true</value>
+	</element>
+	<element id="28">
+		<item>B9u6PMO1u3uLyEK5OZ3HsnR42kUsL2742323Gudj8m6twILCDkjpx01h0hz16X9OE9zeE87v0g79784E6p0wub7V9RA7CClawL7fi3j8s60M72FY</item>
+		<value>true</value>
+	</element>
+	<element id="29">
+		<item>KLJaL7SA5nGScB3M6Kl2B5Zs5kLlqxZv8XC48l93N8C6x1Ofixib8K68Z5L6H8HMv68tEcoB44eCHC8DM4isF5CmockF0qEUzOzXA0lP4Sn3p934q9Y9</item>
+		<value>true</value>
+	</element>
+	<element id="30">
+		<item>MP2uQVIO50AhcdgNqeVWYW6mWdWZVEv0eD6b4fuzFr7G3ggas9l3LGe9429tjs3iyJpT7NM8v2fJN98460fxCuQZ5X3OeS43d4tEMZ11sTrrC52Zr367F4t2</item>
+		<value>true</value>
+	</element>
+	<element id="31">
+		<item>aUz36gxVD0fS1isfw1Yi0PEuVV5lL02Q30W0vFw0KU3zH4PU89l32oa7GKxOA4l7Z9Dro9m75BzV3MV1VnKQDi14rFr70c8R0nv3jtME04tAkjRiYgRta9c1J1s5</item>
+		<value>true</value>
+	</element>
+	<element id="32">
+		<item>93XL33C9mN996xDP54LVZliB0d5JrLpQOlCmZjY7razs77S3ckLh01QGpAR6j02fQr3zES2CpM6UV82EmuGoDuwj3gRVN653Z55gdWc5dWCGaGw02C242B19nFTpzOp9</item>
+		<value>true</value>
+	</element>
+	<element id="33">
+		<item>1o4iz4WpIvlcZ12scZ5Kc0JBbp36A0KAGR28590EP091QrF1789rFq5Fo0vH16gkYJ781G8lv357YJY5Qwo8y5F60INCr541kkCxA75jXbctl2g1F35vFfcXr6E7GPMAgGEU</item>
+		<value>true</value>
+	</element>
+	<element id="34">
+		<item>Q4735L6GA1vEmsR2DJc6R8gkIjX1UHsewLR9dTvV6h5K4sIDZol7bzZhqW6z1xehRtJgHk13R6YI899X4n5m4RZiHxkRawTAY1Ucu632N5m2RV9hWF2Tr1GLgWQ4zSpoOlio7pbx</item>
+		<value>true</value>
+	</element>
+	<element id="35">
+		<item>9Fk6Y8JOy15cS11uU5zh6GnYZBly4Z5Ap7fEITKhw5l4rI6R930wKZf859GRnVgd8DS2a2lL9v62UWzIJ5S6b111FrVxMmsj96iw02So4xL93NUM5NoyiATy71FlZr6IyOSH7GVX7h54</item>
+		<value>true</value>
+	</element>
+	<element id="36">
+		<item>7b9VzkBTmB1o6tgHrzZEb95Tr1v8CzQH7uv4j82iseda39IWP3zV4i1jhs6EZ6ZGI3B5xSDrJWl6kp94WbZ1oHjs4q7qLfrLl9Sh6508huwB1sS1EHodX9G7u52dzb02m3RVh9Lwa42Z1lnJ</item>
+		<value>true</value>
+	</element>
+	<element id="37">
+		<item>cP90Stxt0M5LYj42Q1us3rP5ggvr0tsk9YhZ3pP4D35k25MRMV3xgXMl6T5068qvIz0q1Gu6ZTv7PU1lr3Wyn0esK1oIG7PJl4M34cGL3Pb2zUZ08Ov9ji5HdCh5ecUhB6U6YYUwXAi9g3ix56s8</item>
+		<value>true</value>
+	</element>
+	<element id="38">
+		<item>r3bbY16i62qk7yjpwL1835T1YFeUnZIlGPyF9T56Lwm76K7m7J1FCH9XLTU9WhB032aa5ZTux1CLQC6cRe77H04xRV755eYvIZ9NYl42iz5cOq8M5D9qLHFWoT9l0T056EMAZ030oWaxd0xkV6Js4jJm</item>
+		<value>true</value>
+	</element>
+	<element id="39">
+		<item>439cUUdoIq6XSJYkLx5d1ts7Pp2hvcORbs0HhjUp9g1cy88VMVY2z5Gi85mBnPLBp87211NdpqBEN1ma4jc2E31pXExm7cv2GXmz26LG9SGktO60sAp1WFJPzBTRF57ydH0S8UIc4z8WsbAvEEESXpKanSd5</item>
+		<value>true</value>
+	</element>
+	<element id="40">
+		<item>N7wuL0986mP8dzd6Q96RB9O08fHBwyh0yHMGuSG2IR2p13mocBkU4h9oi53488t1UJm0qRY2VWZ7f7KsQ42v9uT8BjVva8GA2h4O7RLNSVIE42Nde35uCXWb3r2smfBsqVuOXW9pjqyy6gkzm2O7Dgc4734Tp84K</item>
+		<value>true</value>
+	</element>
+	<element id="41">
+		<item>19c1tc5p5x47XP75C9O1H2Jm4XKL71BFpnrqL72Cnw6Cwa1GLTfuNO2q9ZT8lT9S00VZ3nJ1c1g56xQHIl1Xi1LAZF45318UdCJE0u54497WSFi84zKgQS80735639Ah7zTl0Z2JOpG8rxHPw6Nk507GbE3Ew38e6Il5</item>
+		<value>true</value>
+	</element>
+	<element id="42">
+		<item>LUrZADuo0zK2u32o0I3f0jLAur0c2WDj7jd7X0Q3hxgWZrs001pcV4VrmrXb73rCRjQoQLC7GiZ4G114VPjJ1N4lda268k8Ju97Etiks95LqFxHtd1EaaYPqrAGny40zzF1rtLE8cfEwxhIh0wYVr0vQk7VKfjxdaM1lbR5N</item>
+		<value>true</value>
+	</element>
+	<element id="43">
+		<item>PQ4E8qyK7XQs16T9Gj97c39h2VgsLiNJ0JC37QzVPf5BXMLjak4bj409fvMLUywqYYo60YT56V1e12y0o9GXMs49lZGm7k8sERVf2p3SsCiqOuk2p2nBSXjoKVH759l1Y4UAbaSpZA0Zz4hB9Pyd44hA6TSjsuLq0V4k4KrPl71R</item>
+		<value>true</value>
+	</element>
+	<element id="44">
+		<item>2eQO3yi5BwtPzIH4dyQCP1AJbwp1jO8r0361psq2oKa6sajrWFcgy17E5gk9vgWl1i87Sr2B70qecwLgwJw9r1LUsPB0UYI0Lxb9qf7iwV881vZ5rLgQXL1EKZ1VpoJ8gOo2LCXzT23Z5C2wLr4yG6f5FWVC0M9VaD6owBuyE1Pa3IO5</item>
+		<value>true</value>
+	</element>
+	<element id="45">
+		<item>EzaInY9TeySEJqy9T1F5ipZa3ngIsmPVa051e82um3u7QO6z9wBOJnlRvdlQ758umx1Nh8d723J0XKS4KF0J4LhA8c2Gd25489eG815OH626k83BM86Y83XDA3gCP1e6uF4CWkdJ9KcsR92Duy75430B3iWwkQGz3KtLvJUp5Q6I5jf64aI7</item>
+		<value>true</value>
+	</element>
+	<element id="46">
+		<item>wn3jNwXHI6ta8dPWwR9vi2aaDPP2gfeVrpfk75d0OCMT2y6bsarr0SgBeGpGBezmeG8nGH9FzmeniQZav3MplAuVAv012U3fNm62IL2c6618ZQ33gZMCf6l71k8dxtY0h03kumdo1S7UyAuUaAn997Z97s4061b9yJxy2NPvW1O5ZXV68kzovmqp</item>
+		<value>true</value>
+	</element>
+	<element id="47">
+		<item>RzvQ3xYuAu0J2cgG1O22E73af48SR90RJZ8zF28mJxRknaChp4lB0xrO2muWjvwmjpIb3yiyD3qabzOGC6BiU1WZO8Tnu3vd00N63s2BSoPy87t0ZGIt75P0y7MSs4kE4ZN75w8J929p9N6clx2C87ZkS9V1i0A2yiY5pSh21OONk89GFO74SZf8ojw4</item>
+		<value>true</value>
+	</element>
+	<element id="48">
+		<item>Ga2N9CyW5Z16l00124vYPkxEnAN9AdLP8XnXzRwT7ZKPaXT57qZ7LYb8DJfBd819Ti9YAzN0TAm2u3R6Q8sP8949M7e3CJP4dHkHuMfMr89JSU5kDS44sZnNh27pRm45ph0dF3XUWCP7z072d900PR9b5lCDV4bI8aEAPh8b2hS6159OGtUr3cxE5Bdo4mjI</item>
+		<value>true</value>
+	</element>
+	<element id="49">
+		<item>uVp5La6qkJ4z583lp28Eji6VsbMvC9Y7a06KcaLJjI9Uo8kJ7Hx1EoeF8Rj6imH0HEBdu4hsQd6joi4TD4gHGRC8C5E6TjkZgH1bMya22s2Hh4J10Wh50zs1x657bO8qT54LlVHRXN57aF1j8i6w6e3Y0hp4fnp10tNSZw46bg1On8HP4IEs2smL1ITFBgoYbLV3</item>
+		<value>true</value>
+	</element>
+	<element id="50">
+		<item>m1801Qcunfa2Yj3UHEXeJg6A0f79dI7G9BI3zx6E3ZSc0dVqWg2RT4fGVy9A6yA60gpQX31570ywUXFR5SJAQ8pN8RvCib4xHmOwjXXEw7hcuAhbTi9Wr3qEaZ154X936AZ913iw01Mmw0Xytx3LrxbBVU8n0ms2cFzx2226D1W1B9iQV3c9818yzbwj46XbR1SA4crS</item>
+		<value>true</value>
+	</element>
+</elements>
+</file>

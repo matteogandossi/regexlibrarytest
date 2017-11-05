@@ -78,7 +78,7 @@ public class Grafica {
 	 */
 	public static int chooseOperation(){
 		
-		Object[] scelte = {"Converti file esistente", "Nuovo file"}; 
+		Object[] scelte = {"Nuovo file", "Autogenerato"}; 
 		
 		int utente = JOptionPane.showOptionDialog(null,
 				"Seleziona l'operazione da effettuare",
@@ -101,6 +101,12 @@ public class Grafica {
 			return -1;
 		}
 		
+	}
+
+	public static int getSize(String message) {
+		
+		String n = JOptionPane.showInputDialog(message);
+		return Integer.parseInt(n);
 	}
 
 }
