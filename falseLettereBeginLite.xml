@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<file for="falseLettersBegin">
+<regex>[a-zA-Z]+</regex>
+<nofelements>50</nofelements>
+<elements>
+	<element id="1">
+		<item>1qkJ</item>
+		<value>false</value>
+	</element>
+	<element id="2">
+		<item>1CYFknSe</item>
+		<value>false</value>
+	</element>
+	<element id="3">
+		<item>1rKFykQgpLqZ</item>
+		<value>false</value>
+	</element>
+	<element id="4">
+		<item>1dWyMZAmHwxCfdcR</item>
+		<value>false</value>
+	</element>
+	<element id="5">
+		<item>1MSLNmOyPEhwiiiCdfDf</item>
+		<value>false</value>
+	</element>
+	<element id="6">
+		<item>1KvdSfcfxAcycUXNTQozDfNW</item>
+		<value>false</value>
+	</element>
+	<element id="7">
+		<item>1JwvZgzCrIOmarKInrSREpIxRDbd</item>
+		<value>false</value>
+	</element>
+	<element id="8">
+		<item>1ggGTjdJFgjmQRulcjLnzgCIOFDvRipr</item>
+		<value>false</value>
+	</element>
+	<element id="9">
+		<item>1ptdyCXnTApJFfzZUsthbLiKralAxnNAeaZQ</item>
+		<value>false</value>
+	</element>
+	<element id="10">
+		<item>1maUZJqESXPeEfZCZJMCvGtIKeRcAmFOqYmXiqCO</item>
+		<value>false</value>
+	</element>
+	<element id="11">
+		<item>1xIarWECBMANezNJtoZglZnyLUTGpUPsFLrlnbGRnicK</item>
+		<value>false</value>
+	</element>
+	<element id="12">
+		<item>1NZiSXwOWlPzscGYDYNKRdPEKAopaTbdgkyoKFJxpPoKMhfZ</item>
+		<value>false</value>
+	</element>
+	<element id="13">
+		<item>1TWEEjCcPpnDQnwDmsYoXUxmiMlPeSasosCVDeZthTDZifSSoZUJ</item>
+		<value>false</value>
+	</element>
+	<element id="14">
+		<item>1grizYaDgtmHTxCZHHJJcRujDPZPhJMlSnEtjBcfVPurZTMaobNbIQcc</item>
+		<value>false</value>
+	</element>
+	<element id="15">
+		<item>1HokoPUpeSPkUvoKEVodEuyJTJTPSGiyCEyVDAdQaJhyavwrGvicQoupzVim</item>
+		<value>false</value>
+	</element>
+	<element id="16">
+		<item>1fgtytJZzpixcpEzYzTMdfnPhEEcXjrUStXpzMsmZdeKAjTfiNUySJujVjtAYexF</item>
+		<value>false</value>
+	</element>
+	<element id="17">
+		<item>1nKiEuZDdjWTMYEgzqpGAidQVrOzAOhXemwJPPdyDXDhGUNdvngKlxYWrheiqvWkSYJT</item>
+		<value>false</value>
+	</element>
+	<element id="18">
+		<item>1CiIuOixqhdMMJzMJvapbwmkjyBhDPswDhziiLoEIgZbxuiXYoggJPIedroODwJqugnqBRLK</item>
+		<value>false</value>
+	</element>
+	<element id="19">
+		<item>1PTKWAnlInMUrlqqudpFTmGTktmGsYBnzYEDtaPuXmxdnbWuhOiGYXLttvqaLPISzLNYYnYEKdqp</item>
+		<value>false</value>
+	</element>
+	<element id="20">
+		<item>1xGGtLlkTKPYgZnviQsokgDfXxZTOEsKnWuOvMBaskTZpzAypWsYfnOvOmlwHsdcWqCHOSTSHNxtYepa</item>
+		<value>false</value>
+	</element>
+	<element id="21">
+		<item>1ldumegHrUJZvwkmUFnvcbFxDETUIPDdXtOLjuENkoXMHdAIiHAZZZRhNdJtuExhebHoSacpNAfAFbEDveCh</item>
+		<value>false</value>
+	</element>
+	<element id="22">
+		<item>1GHvdKEYgUWwuSZAEQhHCVyOjjipneRaQbaKMZWapLNNwyTRuMVSUopYilzOPfmVJjaHPvWJLgRxyzDuRVXEXjHX</item>
+		<value>false</value>
+	</element>
+	<element id="23">
+		<item>1ejZzhLHOrzkhsEOtWlIZnwbXxRkgJdGotdWjQvNCcYdJPQkqBMYLisnOjkGoxmZnxSRRNMdbxpnNhMtNVXiHcqMbQro</item>
+		<value>false</value>
+	</element>
+	<element id="24">
+		<item>1KHrMAafFnlfnfVAtIInlOLkVnXQZhbSfoDrCTyLOcVghMXVoukngngiKgbXFCYlmvIlirPUhsgmWPucQeuuUmDuLULEgbKW</item>
+		<value>false</value>
+	</element>
+	<element id="25">
+		<item>1YFkGsOvPCwTHtSRxywVaWPLlvAivAcYkmjEBmEqdRnSHRuyyKdsFgIsrKRlvcWMMZckeWGdEtffmhTQHhrtAnIUVffeuOyvQQJD</item>
+		<value>false</value>
+	</element>
+	<element id="26">
+		<item>1NwTfjytbOREDIWFWjVNCGyScOLjxnNMfEDASqSdZTBhUOhliseENAeQiapTZwjjMllmspsslMpoLIMQVijlaPYVpTskMZJJLQCwihhf</item>
+		<value>false</value>
+	</element>
+	<element id="27">
+		<item>1ZLZQrtAqrifmBjbONXzbpnvjPjKJPqhodGSzQAZloRJQuceMrBABydfasKTAWsXUdewVEtxTKNCGOjSctOrAgIkmaTybrjpgkzfewQwhelR</item>
+		<value>false</value>
+	</element>
+	<element id="28">
+		<item>1EHvfuYKYEedYTLBbHnZAzYBeyZMShCiPHurDnLyrECCKmtAOvmmJxkKoOGykifHZGElTsbigDlAFbYXdswxHougEvCwmLaDteoRiHoWfajxWlCT</item>
+		<value>false</value>
+	</element>
+	<element id="29">
+		<item>1zPqNVwxDMxFtbrKCSpGludrYVOIEBgCNYfQgJBGwkXumhGpCBuOCTbrngxMZDltqEjpsmsEGfymOYOziKpeDHmAAMWOvrhCWdALanTOnZgDTtzIeMuA</item>
+		<value>false</value>
+	</element>
+	<element id="30">
+		<item>1XwKiXWUCOAJNZpcbnbLxTrywqbQxIiMbtgYpVfYMVnXTMwlXsaygBvrMfQEoUemFtpLWfeIJjMRvWwcmBeCQKghJGdhVXDDPOjZxBdOYLhsHZzHyHcTLBUh</item>
+		<value>false</value>
+	</element>
+	<element id="31">
+		<item>1rKtbYyjsIOxdnofDrlhsnxPFqDGNqzBctPkvQbrDCHXIgeiTLmYYNBVipOASgcGDQEtEKgseIglcUqxzwuNHdAAWYNjsenazJKYhnhRgKZFZVTmPOYAefMeAydw</item>
+		<value>false</value>
+	</element>
+	<element id="32">
+		<item>1CJOUTijkUGKOKLZivOOfgVOATxcCCVwnGIhSSelvghPbshdoYszuqsOpNFZmpitNrUnsQtqAjDnhsnTMreCoZpnuMKROsNEclgWmZBPQbMKShAfUzBrDoNwZohBuTaQ</item>
+		<value>false</value>
+	</element>
+	<element id="33">
+		<item>1bJoVLsngGMleLMTynMfbfUZxgAxauXDJTymzVVoQKTokVktzhblIJTxpIFVPTauhwtagukusGUiQWWWBXVjiagCQCYjnNsIeERLyCEHimhUyLayHvgUDVcJsbjIHpWNlgft</item>
+		<value>false</value>
+	</element>
+	<element id="34">
+		<item>1gXFdKSysmPdmXLyDPBRJCoxPomrsPxMqjnBEUbgnsIsQLQOCYRZNbmzxlqvRehaogXswMyOXWpDBJWbHuDVRWRhAfrbBQxfgwZmXFiLXEfifWJbWSVOhmIZjeTwvNNQEzYlAsOu</item>
+		<value>false</value>
+	</element>
+	<element id="35">
+		<item>1rqZdCvDhSFNWeUHweIXABrSLTviUCKkCeuLrUhAzEVLjdAXjwMLpvQUplYfvrCCjCvohGTvIszWkHCsQOSVlpmvTvnoKjyZQBvLMljajDDSRITUYWhBFNZYeuDpCIeAQLXzomJoebmN</item>
+		<value>false</value>
+	</element>
+	<element id="36">
+		<item>1EUBaOmzTHKcghNNlceBkTvaABmDsZiENxMBCEknsyKzqyeOqJKwucDMvYUhaWvFNzsWHcmjmDPtRvgRJxXDUcbUJttEBEDPUhYwyVfApVmqSqwjWNJaIOZqgpMLghRihKGwfdqtIqxGpxUH</item>
+		<value>false</value>
+	</element>
+	<element id="37">
+		<item>1pBRsDiKscamDmJnQCQqDmPsmihSHqZQoulWsuifhUPdqVGOxXeLXlFrYLxYdnOVfsObPdWCLSwZYXqpgUsroVlvKwOydgnCMrlkDdwpVUQQDRjfzFffsduvIbMbuXjLbVOVHMqKLypPZtkCNhCK</item>
+		<value>false</value>
+	</element>
+	<element id="38">
+		<item>1mzGwOsIPmTrIzZUvtZdxAEakGsstSRZLcHPIOMjYgbnUADhcBwYPHuzqWRLLjQnsYAneKxMJkSrmUGIbfarkWpaJdDedHJYRJCvtfbWFZbPmLvNkHstaAlXcJQTuyDWtItozbqsEWFTbbWLuIlPrzTH</item>
+		<value>false</value>
+	</element>
+	<element id="39">
+		<item>1obQVJfYbQvFltGEVniTbGajyxmJNRqaCvCdyeAztRmWmYQsAahtdDpfcUyBZksPkUUyqrHgjGrsNokUioRoEkHXtNqKEkvXMgJCiEkXxwvaKmUygXqqlGfyDYycnyzMMjdLIlNDjolfUWwYrDLUPgTtpunD</item>
+		<value>false</value>
+	</element>
+	<element id="40">
+		<item>1ZBTWNdlQxQLDRnwTtpumVGcVaqXvGBxrvKVadrCrxeyeDIRZcQiwFJeRMeGRrKgMtBUXovfERpTfEnlflyMZaKNcgYItGyQFVKHakogrOMqhNscnOJtlECHmyiAQlpxEhrtlolPrgbWyKpelteriTfhbOouWcGn</item>
+		<value>false</value>
+	</element>
+	<element id="41">
+		<item>1qEtUkwujuMVQaJtoirThfGNXaclrGBPtHVEssHJHTjBuxxtyZyMGBxcIGgqZQatTaIAcrQLZuOrgzrSgbWrmTCEdxCrBwcFSBjouEOUpVPKTVuyASndrBEaXvOMCbXlinIJNzDysiSejrrWvznMbEieILEVRrEhTCiw</item>
+		<value>false</value>
+	</element>
+	<element id="42">
+		<item>1NCcpZXosmxxWVsUndjgVJDdJZvzQApCkNRrDCUzDsFTNLBbJWzFQiawZzZIjWaXQhUtDBpUkVmirBKfwkBaYGeWetJSxUWlYIaGeUlvXNEdsvZSMZtVDIaOnYsftueRCEgZGaARaetGEGDCFfuQyPoAoSejLHKBmkBnOvkl</item>
+		<value>false</value>
+	</element>
+	<element id="43">
+		<item>1vvpdFJOrnrtfuAhAtDAwInyZiIRGgaJVKgHhDdQFVzTVOdUuhnwkqpucfBvNCtkvQMkRaRtNcbgZjOwREeKkWdSbOYadVTPJxeynfZUYbQwfSlPISvSsMZJpKNkiQrNurrffxOmKYBXiIlYJPzDgTvPvvRniPNfzNvEZjTdinyi</item>
+		<value>false</value>
+	</element>
+	<element id="44">
+		<item>1BMxEkQcupARErKhPwItszGfPjkyvkSnOHBLhArTuJAyfAVAtFcBeCbgEpzPaoQerpAmxUSJbNSWbcSTZiBgzzYmpiQctWlnAUxESAOWbFkjISNTnYfUXpAcvBhRGpcacKyHbSbHdXyLUsLZAowtHxGtqQpmeROSlOvFaDImaqLXZSJX</item>
+		<value>false</value>
+	</element>
+	<element id="45">
+		<item>1DJSRXOVmAXGaRCiOHCLYViqCnAGzWjLUYykEOpkQsOxnuDeNsNDEitFPXTzMcvruyqBkKgkEIfLYraJUWZnCNfGpjQVZxZTrUuxMDqiIVfScMPswIitIkGIOSUECpfkBvUHybnhTfYuxDaqoLNMByBGFDOFgnrSETBPiFWchCjsPObiTMnS</item>
+		<value>false</value>
+	</element>
+	<element id="46">
+		<item>1SGpWjvVmSuZphcIKyGsyQponBVUdARdZEHSTICCXvbTeloxuyfheeFSbcghcPgINgyEpyIAlXbSRfOJhgcZsTMQKwPBgiikjCvrfpTMevvgnhUgnYTCsBbqIeLawMDGstRroNsEzmDKdHpQoVPHKCAWOSQeotxDbPwLKikAdHfhHpscTgqdSqYP</item>
+		<value>false</value>
+	</element>
+	<element id="47">
+		<item>1pGjHQWhCqekguABzUyaxPwjgITdbgJasXqINCymdgHbtaHiAxElWABhKdcbmqafygYFtmAcstlaiTRgmehvnKKpmGmCxlQpOVMzoOInZdgujGMdwYepadsrQGjoOgnDLgMPjrjiiMyrdbqQEWCwyoDQsGDYDsVfZfERRwSqIhyUcLdfyCEtXbagKmVP</item>
+		<value>false</value>
+	</element>
+	<element id="48">
+		<item>1iQNKWDyuySwPsaknXpQMfgRmxYFnOQkAelCZjzZbVxZuezlCXkNtATdDBWfHQdWaphUtNAdOWDahTaPbZnglsgKkdxMuBbxqDREylRKpujCSkEKNGcmMQhOAmOWAIhrtChymAzNUvimnmNHVHKQmfMjNwnAnBhfnyrhXwcmlZXHgCZQjcGwXtWZgVDRYCwT</item>
+		<value>false</value>
+	</element>
+	<element id="49">
+		<item>1QQBLahkPGhEeWSpTWpqlTqaQYHHcgymVbLyYyRVHfwiSvyOhnTNyDnvLtRDTugZszWnGhoVrkNHKazqEAtbgKybQdsbUDawhydskJLPOlcoFGYoCTFOIPwKBbXGsRFtUUOUODiUMxDZuSZEtUqvgduNudrFztSSyampWjkgbhZEDGHWGKjCQVxWFPoqrJKQPKSD</item>
+		<value>false</value>
+	</element>
+	<element id="50">
+		<item>1QbLGgRdqoJhSrlMASsiTFFOJMYqNLumyudToAiAOeRUWJlQBkHvNMVatYSLegGZXqmRYByhWncYUibPRLNRVOUGjTXJKPpRVdbMzwdNwrkzGXypfgYKUocBXsoKjHbeaXtpHtzeBqlRXIcqOjuYoMtvjfrOoIsRsTEpsIxjLwwMnqKjtlnAxxcdBDbwRMsyLfmhWONs</item>
+		<value>false</value>
+	</element>
+</elements>
+</file>

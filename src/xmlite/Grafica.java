@@ -78,7 +78,7 @@ public class Grafica {
 	 */
 	public static int chooseOperation(){
 		
-		Object[] scelte = {"Nuovo file", "Autogenerato"}; 
+		Object[] scelte = {"Nuovo file", "Autogenerato TRUE", "Autogenerato FALSE"}; 
 		
 		int utente = JOptionPane.showOptionDialog(null,
 				"Seleziona l'operazione da effettuare",
@@ -96,6 +96,9 @@ public class Grafica {
 			
 		case 1:
 			return 1;
+		
+		case 2:
+			return 2;
 	
 		default:
 			return -1;

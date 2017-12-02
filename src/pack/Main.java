@@ -22,7 +22,7 @@ public class Main {
 	private final static int LIBRARY = 4;
 	private final static int ITERATIONS = 2000000;
 	private final static int NUM_TEST = 5;
-	private static String filename = "numeriLite";
+	private static String filename = "falseNumeriEndLite";
 	private static String regexType = "Numeric";	
 	
 	/*
